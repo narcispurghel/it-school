@@ -12,7 +12,8 @@ public class Challange6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean inputIsValid = false;
-        double number1, number2;
+        double number1;
+        double number2;
 
         do {
             try {
@@ -21,12 +22,6 @@ public class Challange6 {
 
                 System.out.print("Enter second number: ");
                 number2 = scanner.nextDouble();
-
-                if (number2 > 0) {
-                    inputIsValid = true;
-                } else {
-                    System.err.println("Error: Numerator must be > 0");
-                }
 
                 compareTwoNumbers(number1, number2);
             }
@@ -40,9 +35,9 @@ public class Challange6 {
 
     public static void compareTwoNumbers(double number1, double number2) {
         if (number1 > number2) {
-            System.out.println("First number is greater that second number");
+            System.out.println("First number is greater than second number");
         } else if (number1 < number2) {
-            System.out.println("First number is lesser that second number");
+            System.out.println("First number is lesser than second number");
         } else {
             System.out.println("First number is equal to second number");
         }
