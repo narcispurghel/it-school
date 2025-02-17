@@ -13,8 +13,7 @@ public class Challange7 {
 
         if (sideOne == sideTwo && sideOne == sideThree) {
             System.out.println("Equilateral");
-        }
-        else if (sideOne == sideTwo || sideOne == sideThree || sideTwo == sideThree) {
+        } else if (sideOne == sideTwo || sideOne == sideThree || sideTwo == sideThree) {
                 System.out.println("Isosceles");
         } else {
                 System.out.println("Scalene");

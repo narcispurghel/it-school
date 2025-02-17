@@ -44,7 +44,7 @@ public class Challange15 {
             System.out.println("Authentication successful");
         } else if (!hasUsername && !hasPassword) {
             System.out.println("Authentication failed");
-        } else if (hasUsername && !hasPassword){
+        } else if (hasUsername) {
             System.out.println("Password incorrect");
         } else {
             System.out.println("User is not registered");

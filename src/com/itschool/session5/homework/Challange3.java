@@ -1,5 +1,7 @@
 package com.itschool.session5.homework;
 
+import com.itschool.helper.ValidateInput;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -11,29 +13,14 @@ public class Challange3 {
         else print "I am a child", using the ternary operator.
      */
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        boolean inputIsValid = false;
+        ValidateInput.runProgram((inputIsValid, scanner) -> {
+            System.out.print("Enter your age: ");
+            int age = scanner.nextInt();
 
-        do {
-            try {
-                System.out.print("Enter your age: ");
-                int age = scanner.nextInt();
+            String userMaturity = age > 18 ? "I am adult" : "I am a child";
+            System.out.println(userMaturity);
 
-                if (age > 18) {
-                    System.out.println("You are an adult!");
-                    inputIsValid = true;
-                } else if (age < 18 && age >= 0) {
-                    System.out.println("You are a child!");
-                    inputIsValid = true;
-                } else {
-                    System.err.println("Error: age must be >= 0");
-                }
-            }
-            catch (InputMismatchException e) {
-                System.err.println("Error: Value not accepted");
-                scanner.nextLine();
-            }
-
-        } while (!inputIsValid);
+            return inputIsValid;
+        });
     }
 }
