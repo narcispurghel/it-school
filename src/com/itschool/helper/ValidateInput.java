@@ -18,7 +18,7 @@ public class ValidateInput {
                 System.err.println("Error: Value not accepted");
                 scanner.nextLine();
             }
-        } while (inputIsValid);
+        } while (!inputIsValid);
     }
 
 }

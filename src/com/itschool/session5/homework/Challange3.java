@@ -20,7 +20,7 @@ public class Challange3 {
             String userMaturity = age > 18 ? "I am adult" : "I am a child";
             System.out.println(userMaturity);
 
-            return inputIsValid;
+            return true;
         });
     }
 }
