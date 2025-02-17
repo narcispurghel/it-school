@@ -3,7 +3,7 @@ package com.itschool.session7.homework;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Challange4 {
+public class Challenge4 {
     /*
         String Reverser
         Ask the user to enter a string. Print the reversed version of this string.

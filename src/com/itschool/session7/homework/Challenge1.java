@@ -1,6 +1,6 @@
 package com.itschool.session7.homework;
 
-public class Challange1 {
+public class Challenge1 {
     /*
         Even or Odd Checker
         Write a Java program that takes an integer as input. If the number is even, print "Even".

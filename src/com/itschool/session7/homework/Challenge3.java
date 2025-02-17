@@ -1,9 +1,8 @@
 package com.itschool.session7.homework;
 
 import java.util.ArrayList;
-import java.util.List;
 
-public class Challange3 {
+public class Challenge3 {
     /*
         Counting Negative Numbers
         Given an array of integers, write a program to count and print the number of negative integers in the array.

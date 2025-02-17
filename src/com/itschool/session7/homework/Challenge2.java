@@ -3,7 +3,7 @@ package com.itschool.session7.homework;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Challange2 {
+public class Challenge2 {
     /*
         Month Name Finder
         Write a program that asks the user to enter a number between 1 and 12.
