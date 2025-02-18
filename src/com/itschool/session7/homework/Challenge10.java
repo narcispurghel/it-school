@@ -40,7 +40,6 @@ public class Challenge10 {
                     }
                     default -> {
                         System.out.println("Please enter a valid choice!");
-                        continue PARENT_LOOP; // Unnecessary but I don't know where to use continue in this challenge
                     }
                 }
             }

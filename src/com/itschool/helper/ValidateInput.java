@@ -14,7 +14,7 @@ public class ValidateInput {
             try {
                 inputIsValid = businessLogic.apply(inputIsValid, scanner);
             }
-            catch (InputMismatchException e) {
+            catch (IllegalArgumentException e) {
                 System.err.println("Error: Value not accepted");
                 scanner.nextLine();
             }

@@ -12,7 +12,7 @@ public class Challenge7 {
     public static void main(String[] args) {
         ValidateInput.runProgram((inputIsValid, scanner) -> {
             int predefined = 5;
-            int guess = 0;
+            int guess;
 
             do {
                 System.out.print("Guess the number!\nYour guess: ");

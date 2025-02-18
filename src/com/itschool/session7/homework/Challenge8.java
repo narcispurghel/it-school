@@ -7,7 +7,7 @@ public class Challenge8 {
     public static void main(String[] args) {
         int fNMinus2 = 0; // F0 always 0
         int fNMinus1 = 1; // F1 always 1
-        int fN = 0;
+        int fN;
 
         for (int i = 0; i < 10 ; ++i) {
             if (i > 1) {

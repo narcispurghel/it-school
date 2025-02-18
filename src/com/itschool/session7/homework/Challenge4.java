@@ -1,5 +1,7 @@
 package com.itschool.session7.homework;
 
+import com.itschool.helper.ValidateInput;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -9,23 +11,14 @@ public class Challenge4 {
         Ask the user to enter a string. Print the reversed version of this string.
      */
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        boolean inputIsValid = false;
+        ValidateInput.runProgram((inputIsValid, scanner) -> {
+            System.out.print("Enter a string: ");
+            String userString = scanner.nextLine();
 
-        do {
-            try {
-                System.out.println("Enter a string: ");
-                String userString = scanner.nextLine();
+            System.out.println(reverseString(userString));
 
-                System.out.println(reverseString(userString));
-                inputIsValid = true;
-            }
-            catch (InputMismatchException e) {
-                System.err.println("Error: Value not accepted");
-                scanner.nextLine();
-            }
-
-        } while (!inputIsValid);
+            return true;
+        });
     }
 
     public static String reverseString(String initial) {

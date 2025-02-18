@@ -1,5 +1,7 @@
 package com.itschool.session7.homework;
 
+import com.itschool.helper.ValidateInput;
+
 import java.math.BigInteger;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -11,25 +13,15 @@ public class Challenge5 {
         where n is provided by the user.
      */
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        boolean inputIsValid = false;
+        ValidateInput.runProgram((inputIsValid, scanner) -> {
+            System.out.print("Enter n numbers to print: ");
+            int n = scanner.nextInt();
 
-        do {
-            try {
-                System.out.print("Enter n numbers to print: ");
-                int n = scanner.nextInt();
+            System.out.print("Generated Fibonacci Series: ");
+            fibonacciSeriesGenerator(n);
 
-                System.out.print("Generated Fibonacci Series: ");
-                fibonacciSeriesGenerator(n);
-
-                inputIsValid = true;
-            }
-            catch (InputMismatchException e) {
-                System.err.println("Error: Value not accepted");
-                scanner.nextLine();
-            }
-
-        } while (!inputIsValid);
+            return true;
+        });
     }
 
     public static void fibonacciSeriesGenerator(int numberGenerator) {
@@ -37,7 +29,7 @@ public class Challenge5 {
         BigInteger fNMinus1 = BigInteger.ONE; // F1 always 1
         BigInteger fN;
 
-        if (!(numberGenerator > 1)) {
+        if (numberGenerator <= 1) {
             throw new RuntimeException("Fibonacci series generator number must be > 1");
         }
 

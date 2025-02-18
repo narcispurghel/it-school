@@ -11,10 +11,10 @@ public class Challenge9 {
         Utilize a for-each loop for this task.
      */
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8));
+        int[] array = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
 
-        System.out.println("List: ");
-        for (Integer number: list) {
+        System.out.println("Array with parity: ");
+        for (int number: array) {
             String parity = number % 2 == 0 ? "Even" : "Odd";
             System.out.println(number + ": " + parity);
         }

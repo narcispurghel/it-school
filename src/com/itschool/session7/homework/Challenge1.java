@@ -13,7 +13,7 @@ public class Challenge1 {
 
     private static String checkParity(int number) {
         if (number % 2 == 0) {
-           return ("Even");
+           return "Even";
         } else {
             return "Odd";
         }

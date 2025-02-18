@@ -14,12 +14,12 @@ public class Challenge6 {
             int sum = 0;
 
             while (currentNumber != -1) {
+                sum += currentNumber;
                 System.out.print("Enter a number: ");
                 currentNumber = scanner.nextInt();
-                sum = currentNumber != -1 ? sum + currentNumber : sum;
             }
 
-            System.out.println(sum);
+            System.out.println("Sum: " + sum);
 
             return true;
         });
