@@ -1,6 +1,6 @@
 package com.itschool.session5.homework;
 
-public class Challange13 {
+public class Challenge13 {
     /*
         Write a Java program where you declare an integer variable counter with a value of 0.
         Use the increment operator to increase the value of counter by 1 and then print the value.

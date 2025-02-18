@@ -2,10 +2,7 @@ package com.itschool.session5.homework;
 
 import com.itschool.helper.ValidateInput;
 
-import java.util.InputMismatchException;
-import java.util.Scanner;
-
-public class Challange3 {
+public class Challenge3 {
     /*
         Write a Java program that declares an integer variable age
         with a value that can be inserted from keyboard.

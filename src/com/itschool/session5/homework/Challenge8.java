@@ -1,9 +1,8 @@
 package com.itschool.session5.homework;
 
-import java.math.BigDecimal;
 import java.math.BigInteger;
 
-public class Challange8 {
+public class Challenge8 {
     /*
         Write a Java program to calculate the factorial of a number using a for loop.
         Declare an integer variable number and assign a value to it.

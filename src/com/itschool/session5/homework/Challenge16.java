@@ -1,9 +1,8 @@
 package com.itschool.session5.homework;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Challange16 {
+public class Challenge16 {
     /*
         Write a Java program that takes a double variable score representing a student’s score on a test.
         Use “if-else if” conditional statements to classify the score into letter grades A, B, C, D, or F

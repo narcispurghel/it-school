@@ -1,6 +1,6 @@
 package com.itschool.session5.homework;
 
-public class Challange1 {
+public class Challenge1 {
     /*
         Write a Java program where you create two String objects named stringOne
         and stringTwo with the same value "OpenAI".

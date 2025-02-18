@@ -1,6 +1,6 @@
 package com.itschool.session5.homework;
 
-public class Challange10 {
+public class Challenge10 {
     /*
         Write a Java program where you declare four integer variables: a, b, c, and d.
         Assign them values of 10, 20, 30, and 40 respectively.

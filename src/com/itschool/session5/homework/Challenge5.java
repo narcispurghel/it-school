@@ -1,6 +1,6 @@
 package com.itschool.session5.homework;
 
-public class Challange5 {
+public class Challenge5 {
     /*
         Write a Java program to print the numbers from 1 to 10 using a for loop.
         As a next step, modify your program to print only the even numbers from 1 to 10.

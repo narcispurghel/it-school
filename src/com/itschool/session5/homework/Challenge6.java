@@ -1,6 +1,6 @@
 package com.itschool.session5.homework;
 
-public class Challange6 {
+public class Challenge6 {
     /*
         Write a Java program where you declare an integer variable temperature.
         Assign a value to it and print "Hot" if the

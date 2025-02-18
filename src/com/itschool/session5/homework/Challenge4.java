@@ -1,6 +1,6 @@
 package com.itschool.session5.homework;
 
-public class Challange4 {
+public class Challenge4 {
     /*
          Write a Java program where you declare two integer variables heightOne
          and heightTwo with any values. Use the ternary operator to determine

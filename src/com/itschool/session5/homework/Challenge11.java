@@ -1,6 +1,6 @@
 package com.itschool.session5.homework;
 
-public class Challange11 {
+public class Challenge11 {
     /*
         Write a Java program where you declare an integer variable number with a value of 25.
         Use unary minus operator to change

@@ -1,6 +1,6 @@
 package com.itschool.session5.homework;
 
-public class Challange7 {
+public class Challenge7 {
     /*
         Write a Java program that determines the type of triangle based on its sides.
          Declare three variables sideOne, sideTwo and sideThree to represent the sides of the triangle.

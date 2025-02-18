@@ -1,8 +1,6 @@
 package com.itschool.session5.homework;
 
-import java.util.Objects;
-
-public class Challange2 {
+public class Challenge2 {
     /*
         Write a Java program to declare two integer variables firstNumber and secondNumber
         with any values. Use an equality operator to compare these two numbers and print

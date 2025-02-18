@@ -1,6 +1,6 @@
 package com.itschool.session5.homework;
 
-public class Challange12 {
+public class Challenge12 {
     /*
         Write a Java program where you declare two boolean variables isRaining and isSunny
         with values of true and false, respectively.

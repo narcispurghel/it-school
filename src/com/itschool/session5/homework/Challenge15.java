@@ -3,7 +3,7 @@ package com.itschool.session5.homework;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Challange15 {
+public class Challenge15 {
     /*
          Write a Java program that simulates a simple authentication system.
          Declare a boolean variable hasUsername and hasPassword.

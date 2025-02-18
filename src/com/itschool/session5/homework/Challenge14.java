@@ -1,6 +1,6 @@
 package com.itschool.session5.homework;
 
-public class Challange14 {
+public class Challenge14 {
     /*
         Write a Java program where you declare an integer variable total with a value of 100.
         Use the compound assignment operator to decrease the total by 20 and then print the value.

@@ -1,6 +1,6 @@
 package com.itschool.session5.homework;
 
-public class Challange9 {
+public class Challenge9 {
     /*
         Write a Java program to create two String variables, countryOne with the value "USA" and
         countryTwo with the value "USA". Check if countryOne and countryTwo are equal using the equals()
