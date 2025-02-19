@@ -1,10 +1,6 @@
 package com.itschool.session7.homework;
 
 import com.itschool.helper.ValidateInput;
-
-import java.util.InputMismatchException;
-import java.util.Scanner;
-
 public class Challenge2 {
     /*
         Month Name Finder
