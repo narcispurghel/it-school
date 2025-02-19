@@ -1,7 +1,5 @@
 package com.itschool.session7.homework;
 
-import java.util.ArrayList;
-
 public class Challenge3 {
     /*
         Counting Negative Numbers
