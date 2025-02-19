@@ -13,7 +13,7 @@ public class Challenge5 {
         where n is provided by the user.
      */
     public static void main(String[] args) {
-        ValidateInput.runProgram((inputIsValid, scanner) -> {
+        ValidateInput.runProgram((scanner) -> {
             System.out.print("Enter n numbers to print: ");
             int n = scanner.nextInt();
 

@@ -7,7 +7,7 @@ public class Challenge3 {
         the number of negative integers in the array.
      */
     public static void main(String[] args) {
-        int[] array = new int[]{1, 2, 3, -3, -4, -5};
+        int[] array = {1, 2, 3, -3, -4, -5};
 
         countNegativeIntegers(array);
     }

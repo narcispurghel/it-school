@@ -10,7 +10,7 @@ public class Challenge11 {
         print the average of the numbers entered so far.
      */
     public static void main(String[] args) {
-        ValidateInput.runProgram((inputIsValid, scanner) -> {
+        ValidateInput.runProgram((scanner) -> {
             int sum = 0;
             int count = 0;
 

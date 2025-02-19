@@ -9,7 +9,7 @@ public class Challenge6 {
         After they enter -1, print the sum of all numbers entered (excluding -1).
      */
     public static void main(String[] args) {
-        ValidateInput.runProgram((inputIsValid, scanner) -> {
+        ValidateInput.runProgram((scanner) -> {
             int currentNumber = 0;
             int sum = 0;
 

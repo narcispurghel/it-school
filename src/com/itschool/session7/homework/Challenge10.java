@@ -15,7 +15,7 @@ public class Challenge10 {
         Use jump statements to control the flow of the program.
      */
     public static void main(String[] args) {
-        ValidateInput.runProgram((inputIsValid, scanner) -> {
+        ValidateInput.runProgram((scanner) -> {
             System.out.println("Register!");
             System.out.print("Enter your name: ");
             String name = scanner.nextLine();

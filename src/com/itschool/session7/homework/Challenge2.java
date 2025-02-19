@@ -8,7 +8,7 @@ public class Challenge2 {
         Print the name of the corresponding month or "Invalid Month" if out of range.
      */
     public static void main(String[] args) {
-        ValidateInput.runProgram((inputIsValid, scanner) -> {
+        ValidateInput.runProgram((scanner) -> {
             System.out.print("Enter a month number: ");
             int monthNumber = scanner.nextInt();
 

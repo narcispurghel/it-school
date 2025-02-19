@@ -11,7 +11,7 @@ public class Challenge4 {
         Ask the user to enter a string. Print the reversed version of this string.
      */
     public static void main(String[] args) {
-        ValidateInput.runProgram((inputIsValid, scanner) -> {
+        ValidateInput.runProgram((scanner) -> {
             System.out.print("Enter a string: ");
             String userString = scanner.nextLine();
 

@@ -1,5 +1,6 @@
 package com.itschool.helper;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.function.Function;
 
@@ -13,9 +14,8 @@ public class ValidateInput {
             try {
                 inputIsValid = businessLogic.apply(scanner);
             }
-            catch (IllegalArgumentException e) {
-                System.err.println("Error: Value not accepted");
-                scanner.nextLine();
+            catch (IllegalArgumentException | InputMismatchException e) {
+                System.out.println("Error: Value not accepted");
             }
         } while (!inputIsValid);
     }

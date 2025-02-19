@@ -10,7 +10,7 @@ public class Challenge7 {
         ensure the user is always asked at least once.
      */
     public static void main(String[] args) {
-        ValidateInput.runProgram((inputIsValid, scanner) -> {
+        ValidateInput.runProgram((scanner) -> {
             int predefined = 5;
             int guess;
 
